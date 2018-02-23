@@ -1,0 +1,11 @@
+{
+  "name": "phone-number-exercise-ui",
+  "version": "0.1.0",
+  "description": "The UI for the phone number app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Palmer",
+  "license": "ISC"
+}

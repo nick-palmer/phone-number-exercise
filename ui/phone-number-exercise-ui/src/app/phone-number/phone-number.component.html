@@ -1,0 +1,19 @@
+<p>
+  {{componentMessage}}
+</p>
+
+<input #phoneNumber type="text" >
+
+
+<button (click)="findNumbers(phoneNumber.value)">
+  Oh the possibilities...
+</button>
+
+
+<div *ngIf="phoneNumberList">
+  <strong>Possibilities:</strong>{{phoneNumberCount}}
+  <ul *ngFor = "let number of phoneNumberList">
+    <li>{{number}}</li>
+  </ul>
+</div>
+
